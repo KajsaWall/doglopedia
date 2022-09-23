@@ -1,5 +1,5 @@
 body {
-    max-width: 600px;
+    width: 600px;
     margin: auto;
 }
 
@@ -7,28 +7,28 @@ body {
 
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(143, 143, 103);
-    background-color: rgb(245, 245, 192);
-    padding: 20px 20px 20px 20px;
+    color: rgb(139, 111, 50);
+    background-color: rgb(245, 245, 216);
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
-
 }
 
 .page-navigation {
-
+    
     display: inline-block;
     width: 600px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(248, 225, 190);
     text-align: center;
     display: inline-block;
 }
 
 .page-navigation p {
-text-decoration: underline dotted;
-display: inline-block;
-padding:15px;
-margin: 0;
 
+    color:rgb(70, 70, 70);
+    text-decoration: underline dotted;
+    display: inline-block;
+    padding:15px;
+    margin: 0;
 }
 
 
@@ -37,33 +37,28 @@ margin: 0;
 
     font-size: 13px;
     font-family:'Times New Roman', Times, serif;
-
 }
 
 .page-main1 img {
 
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 1px solid black;
     border-bottom: 3px solid black;
-
 }
-
-
 
 .page-main2 {
 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-size: 15px;
 }
 
 .page-footer {
 
     text-align: center;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(248, 225, 190);
     padding-top:10px;
     margin-bottom: 20px;
     font-size: 13px;
-
 }
