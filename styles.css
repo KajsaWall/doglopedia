@@ -26,8 +26,9 @@ body {
 .page-navigation p {
 text-decoration: underline dotted;
 display: inline-block;
-padding: 10px;
-margin:0;
+padding:15px;
+margin: 0;
+
 }
 
 
@@ -58,5 +59,11 @@ margin:0;
 }
 
 .page-footer {
+
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top:10px;
+    margin-bottom: 20px;
+    font-size: 13px;
 
 }
