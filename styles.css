@@ -1,5 +1,6 @@
 body {
-    
+    max-width: 600px;
+    margin: auto;
 }
 
 .page-header {
@@ -7,8 +8,6 @@ body {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(143, 143, 103);
-    max-width: 600px;
-    margin: auto;
     background-color: rgb(245, 245, 192);
     padding: 20px 20px 20px 20px;
     border-radius: 5px;
@@ -16,8 +15,21 @@ body {
 
 .page-navigation {
 
-   
+    display: inline-block;
+    width: 600px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: inline-block;
 }
+
+.page-navigation p {
+text-decoration: underline dotted;
+display: inline-block;
+padding: 10px;
+margin:0;
+}
+
+
 
 .page-main {
 
