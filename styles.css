@@ -11,6 +11,7 @@ body {
     background-color: rgb(245, 245, 192);
     padding: 20px 20px 20px 20px;
     border-radius: 5px;
+
 }
 
 .page-navigation {
@@ -30,8 +31,29 @@ margin:0;
 }
 
 
+.page-main1 {
+    text-align: center;
 
-.page-main {
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.page-main1 img {
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+
+}
+
+
+
+.page-main2 {
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
